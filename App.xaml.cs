@@ -6,7 +6,7 @@
         {
             InitializeComponent();
 
-            MainPage = new AppShell();
+            Windows[0].Page = new AppShell();
         }
     }
 }
